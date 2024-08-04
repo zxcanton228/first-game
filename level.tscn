@@ -1289,8 +1289,8 @@ script/source = "extends Node2D
 
 [node name="BG" type="ParallaxBackground" parent="."]
 offset = Vector2(0, 260)
-scale = Vector2(0.4, 0.4)
-transform = Transform2D(0.4, 0, 0, 0.4, 0, 260)
+scale = Vector2(0.5, 0.5)
+transform = Transform2D(0.5, 0, 0, 0.5, 0, 260)
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="BG"]
 motion_scale = Vector2(0.2, 1)
