@@ -1,0 +1,229 @@
+[gd_scene load_steps=30 format=3 uid="uid://cidygifw3wbbs"]
+
+[ext_resource type="Texture2D" uid="uid://ccpeb0yl2ph11" path="res://oak_woods_v1.0/character/char_blue.png" id="1_ajhlx"]
+[ext_resource type="Script" path="res://Player/player.gd" id="1_r1txo"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_r2ywj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jlufo"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(56, 224, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nje22"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(112, 224, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y87dg"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(168, 224, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i5ket"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(224, 224, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tu35y"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(0, 168, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8xj4i"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(56, 168, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_plwxi"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(168, 168, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_01vmr"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(224, 168, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bohnq"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(280, 168, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ufd66"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(336, 168, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cn53q"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(392, 168, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_skuqw"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(0, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kvpi1"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(56, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0k1fg"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(112, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2srn0"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(168, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x08ri"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(224, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o6ddd"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(280, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t3aky"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(336, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a1dgn"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(392, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4i2hj"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(0, 0, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mko1y"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(56, 0, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8se0h"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(112, 0, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_653e2"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(168, 0, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mc6o1"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(224, 0, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4rdxa"]
+atlas = ExtResource("1_ajhlx")
+region = Rect2(280, 0, 56, 56)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tuy1t"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jlufo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nje22")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y87dg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i5ket")
+}],
+"loop": true,
+"name": &"Fall",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tu35y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8xj4i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_plwxi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_01vmr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bohnq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ufd66")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cn53q")
+}],
+"loop": false,
+"name": &"Jump",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_skuqw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kvpi1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0k1fg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2srn0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x08ri")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o6ddd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t3aky")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a1dgn")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4i2hj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mko1y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8se0h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_653e2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mc6o1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4rdxa")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_r1txo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_r2ywj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0.343751, -12.3438)
+scale = Vector2(0.987723, 0.987723)
+sprite_frames = SubResource("SpriteFrames_tuy1t")
+animation = &"Fall"
+autoplay = "idle"
+frame_progress = 0.75523
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2.4, 2.4)
+process_callback = 0
+limit_left = -5000
+limit_top = 0
+limit_right = 5000
+limit_bottom = 630
+position_smoothing_enabled = true
+position_smoothing_speed = 17.0
+drag_horizontal_enabled = true
